@@ -1,0 +1,28 @@
+﻿*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green:       #1a5c36;
+  --green-light: #eaf5ef;
+  --green-pale:  #f5faf7;
+  --amber:       #b07800;
+  --amber-pale:  #fffbf0;
+  --red:         #b83030;
+  --red-pale:    #fef2f2;
+  --text:        #1a2e22;
+  --text-muted:  #6b8f7a;
+  --border:      #cde0d5;
+  --white:       #ffffff;
+}
+
+html, body, #root {
+  height: 100%;
+  background: #fff;
+  color: var(--text);
+  font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+* { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; font-family: inherit; border: none; background: none; }
+input, textarea { font-family: inherit; }
